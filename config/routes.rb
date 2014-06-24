@@ -4,6 +4,7 @@ MonkeyPants::Application.routes.draw do
     wash_out :gas_prices
   end
 
+  resources :frog_man
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

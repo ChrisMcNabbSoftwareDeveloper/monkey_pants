@@ -4,7 +4,7 @@ gem 'rails', '3.2.12'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem 'rest-client'
 gem 'sqlite3'
 gem 'wash_out'
 #gem 'httpi', :git => 'https://github.com/savonrb/httpi.git'
@@ -15,7 +15,8 @@ gem 'simplecov'
 gem 'coveralls'
 gem 'httpclient'
 gem 'mocha'
-
+gem 'pry-nav'
+gem 'pry-rails'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
