@@ -11,6 +11,11 @@ gem 'wash_out'
 gem 'savon', '~> 2.0'
 gem 'rspec-rails'
 gem 'pry'
+gem 'simplecov'
+gem 'coveralls'
+gem 'httpclient'
+gem 'mocha'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
